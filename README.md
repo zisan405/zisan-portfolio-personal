@@ -1,11 +1,12 @@
+# Zahidul Islam Zisan - Personal Portfolio
 
-  # Personal Portfolio Website Design
+Hi! I’m Zahidul, a Backend Developer focused on Node.js & Laravel.  
+This repository contains my personal portfolio website built with React.
 
-  This is a code bundle for Personal Portfolio Website Design. The original project is available at https://www.figma.com/design/Btm82We9uL4EJ2f8z0wCS6/Personal-Portfolio-Website-Design.
+## Features
+- Modern, responsive design
+- Interactive sections: About, Projects, Contact
+- Linked to backend APIs for dynamic data
 
-  ## Running the code
-
-  Run `npm i` to install the dependencies.
-
-  Run `npm run dev` to start the development server.
-  
+## Live Demo
+https://zisan-portfolio-project.vercel.app/
