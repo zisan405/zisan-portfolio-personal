@@ -105,6 +105,7 @@ export function Hero() {
                   className="w-12 h-12 rounded-lg bg-gray-100 dark:bg-white/5 border border-gray-200 dark:border-white/10 flex items-center justify-center text-gray-600 dark:text-gray-400 hover:text-cyan-600 dark:hover:text-cyan-400 hover:border-cyan-500/50 hover:bg-cyan-50 dark:hover:bg-cyan-500/10 transition-all duration-300 shadow-lg hover:shadow-cyan-500/25"
                 >
                   <social.icon size={20} />
+                  
                 </motion.a>
               ))}
             </motion.div>
