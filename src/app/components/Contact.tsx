@@ -29,30 +29,30 @@ export function Contact() {
     { 
       icon: Github, 
       label: 'GitHub', 
-      href: 'https://github.com',
-      username: '@zahidulzisan',
+      href: 'https://github.com/zisan405',
+      username: '@zisan405',
       color: 'from-gray-400 to-gray-600'
     },
     { 
       icon: Linkedin, 
       label: 'LinkedIn', 
-      href: 'https://linkedin.com',
+      href: 'https://www.linkedin.com/in/zahidul-islam-zisan-779311293/',
       username: 'Zahidul Islam Zisan',
       color: 'from-blue-400 to-blue-600'
     },
     { 
       icon: Mail, 
       label: 'Email', 
-      href: 'mailto:zisan@example.com',
-      username: 'zisan@example.com',
+      href: 'mailto:zisan7096@gmail.com',
+      username: 'zisan7096@gmail.com',
       color: 'from-cyan-400 to-cyan-600'
     },
   ];
 
   const contactInfo = [
     { icon: MapPin, label: 'Location', value: 'Available for Remote Work' },
-    { icon: Phone, label: 'Phone', value: '+1 (555) 123-4567' },
-    { icon: Mail, label: 'Email', value: 'zisan@example.com' },
+    { icon: Phone, label: 'Phone', value: '+880 1402935405' },
+    { icon: Mail, label: 'Email', value: 'zisan7096@gmail.com' },
   ];
 
   return (

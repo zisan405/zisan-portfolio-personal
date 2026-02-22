@@ -92,13 +92,14 @@ export function Hero() {
               className="flex gap-4"
             >
               {[
-                { icon: Github, label: 'GitHub', href: '#' },
-                { icon: Linkedin, label: 'LinkedIn', href: '#' },
-                { icon: Mail, label: 'Email', href: '#' },
+                { icon: Github, label: 'GitHub', target: '_blank', href: 'https://github.com/zisan405' },
+                { icon: Linkedin, label: 'LinkedIn', target: '_blank', href: 'https://www.linkedin.com/in/zahidul-islam-zisan-779311293/' },
+                { icon: Mail, label: 'Email', target: '_self', href: 'mailto:zisan7096@gmail.com' },
               ].map((social, index) => (
                 <motion.a
                   key={social.label}
                   href={social.href}
+                  target={social.target}
                   whileHover={{ scale: 1.1, y: -2 }}
                   whileTap={{ scale: 0.95 }}
                   className="w-12 h-12 rounded-lg bg-gray-100 dark:bg-white/5 border border-gray-200 dark:border-white/10 flex items-center justify-center text-gray-600 dark:text-gray-400 hover:text-cyan-600 dark:hover:text-cyan-400 hover:border-cyan-500/50 hover:bg-cyan-50 dark:hover:bg-cyan-500/10 transition-all duration-300 shadow-lg hover:shadow-cyan-500/25"
